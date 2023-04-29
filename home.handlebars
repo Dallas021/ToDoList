@@ -1,0 +1,13 @@
+<h1>Lista de Eventos: </h1>
+
+{{#each todolists}}
+    <h2>{{titulo}}</h2>
+    <h3>Conteúdo: {{conteudo}}</h3>
+    <p>Local: {{local}}</p>
+    <p>Data: {{data}}</p>
+    <p>Hora: {{horario}}</p>
+    <a href="/deletar/{{id}}"><button>Feito</button></a>
+    <hr>
+{{/each}}
+    <a href="http://localhost:8081/cad"><button>Cadastrar Evento</button></a>
+    <a href="http://localhost:8081/"><button>Inicio</button></a>

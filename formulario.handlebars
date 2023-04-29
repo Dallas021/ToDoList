@@ -1,0 +1,19 @@
+<form action="/add" method="POST">
+    <label>Titulo:</label>
+      <input type="text" name="titulo" required />
+      <br />
+      <label>Conteudo:</label>
+      <input type="text" name="conteudo" required />
+      <br />
+      <label>Local:</label>
+      <textarea type="text" name="local"></textarea>
+      <br />
+      <label>Data:</label>
+      <input type="date" name="data" required />
+      <br />
+      <label>Hora: </label>
+      <input type="time" name="hora">
+      <br />
+      <button type="submit" onclick="window.location.href='./add/completed'">Registrar</button> 
+      <input type="reset" value="Limpar">
+</form>
